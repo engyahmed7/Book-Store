@@ -20,6 +20,7 @@ html {
 .special-text+p {
   text-align: center;
   padding-bottom: 20px;
+
 }
 
 /* Small */
@@ -173,7 +174,7 @@ html {
 .landing {
   background-image: url("../images/7.webp");
   background-size: cover;
-  Height: calc(100vh - 55px);
+  Height: calc(100vh - 50px);
 }
 
 .landing .intro-text p:first-child {
@@ -196,6 +197,7 @@ html {
   -moz-transform: translate(-4%, -50%);
   -ms-transform: translate(-4%, -50%);
   -o-transform: translate(-4%, -50%);
+  width: 350px;
 }
 
 .landing .container div .shop-now a {
@@ -215,7 +217,7 @@ span {
     position: absolute;
     top: 50%;
     right: 50%;
-    width: 350px;
+    width: 300px;
     transform: translate(50%, -50%);
     -webkit-transform: translate(50%, -50%);
     -moz-transform: translate(50%, -50%);
