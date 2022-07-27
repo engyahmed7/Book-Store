@@ -5,10 +5,6 @@ body {
 
 }
 
-* {
-  overflow-x: hidden;
-}
-
 :root {
   --mainColor: #ce7852;
 }
@@ -67,21 +63,13 @@ html {
 .links ul {
   display: flex;
   justify-content: space-between;
-  transition: 0.4;
-  -webkit-transition: 0.4;
-  -moz-transition: 0.4;
-  -ms-transition: 0.4;
-  -o-transition: 0.4;
+
 }
 
 .links ul li {
   padding-right: 30px;
   list-style: none;
-  transition: 0.4;
-  -webkit-transition: 0.4;
-  -moz-transition: 0.4;
-  -ms-transition: 0.4;
-  -o-transition: 0.4;
+
 }
 
 .links ul li a {
@@ -102,7 +90,7 @@ html {
 
 }
 
-@media(max-width: 768px) {
+@media(max-width: 767px) {
   .header .links {
     position: relative;
     padding-right: 30px;
@@ -299,12 +287,12 @@ span {
 }
 
 .stay-with-us .container .content .image img {
-  padding: 50px;
+  padding: 30px;
 
 }
 
 .stay-with-us .container .text h2 span {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .New-products {
@@ -377,9 +365,9 @@ span {
   font-weight: 800;
 }
 
-.copy {
+/* .copy {
   background-color: #eee;
   padding: 20px;
   display: flex;
   justify-content: center;
-}
+} */
