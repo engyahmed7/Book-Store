@@ -16,7 +16,6 @@ body {
 .special-text+p {
   text-align: center;
   padding-bottom: 20px;
-
 }
 
 /* Small */
@@ -325,6 +324,13 @@ span {
 .footer .container p {
   text-align: center;
   color: #333;
+  width: 700px;
+}
+
+@media(max-width: 767px) {
+  .footer .container p {
+    width: 300px;
+  }
 }
 
 .footer .container .social i {
